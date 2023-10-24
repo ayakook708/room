@@ -1,0 +1,53 @@
+body {
+    font-family: 'Noto Serif JP', 'Helvetica Neue', 'Helvetica', 'Hiragino Sans',
+        'Hiragino Kaku Gothic ProN', 'Arial', 'Yu Gothic', 'Meiryo', sans-serif;
+    font: 15px;
+    background: #eee;
+}
+/* header {
+} */
+.menu {
+    width: 300px;
+    margin: auto;
+}
+.menu li {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.interior {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#roomRegion {
+    padding: 0;
+    margin: 0 auto;
+    width: 1560px;
+    height: 760px;
+    background-image: url(../images/room1_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+#roomPlate {
+    border: 0.5px solid gray;
+    width: 1560px;
+    height: 760px;
+}
+p{
+    /*background-image: url(../images/gold_back.jpg)*/
+}
+.stockRegion {
+    width: 1560px;
+    height: 760px;
+    margin:20px 100px 20px;
+    text-align: center;
+}
+.items {
+    cursor: move;
+    position: absolute;
+    z-index: 1000;
+    margin: 0 auto;
+}
